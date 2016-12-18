@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "automation_test_interview">
+	<parameter name = "ffProfile" 	value = "Selenium"/>
+	<parameter name = "url" 		value = "http://www.google.com"/>
+	<test 	name = "Interview Test1">
+			<parameter name = "searchFor" value = "Cheese!"/>
+		<classes>
+			<class name = "automation_test_interview.GoogleExampleIT" />
+		</classes>
+	</test>
+	<test name = "Interview Test2">
+		<parameter name = "searchFor" value = "Milk!"/>
+		<classes>
+			<class name = "automation_test_interview.GoogleExampleIT" />
+		</classes>
+	</test>
+</suite>

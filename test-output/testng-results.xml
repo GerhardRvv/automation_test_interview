@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="automation_test_interview" duration-ms="9726" started-at="2016-12-18T07:29:05Z" finished-at="2016-12-18T07:29:15Z">
+    <groups>
+    </groups>
+    <test name="Interview Test1" duration-ms="5264" started-at="2016-12-18T07:29:05Z" finished-at="2016-12-18T07:29:10Z">
+      <class name="automation_test_interview.GoogleExampleIT">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:automation_test_interview.GoogleExampleIT@1ed4004b]" name="setUp" is-config="true" duration-ms="3637" started-at="2016-12-18T02:29:05Z" finished-at="2016-12-18T02:29:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleCheeseExample(java.lang.String)[pri:0, instance:automation_test_interview.GoogleExampleIT@1ed4004b]" name="googleCheeseExample" duration-ms="1326" started-at="2016-12-18T02:29:09Z" finished-at="2016-12-18T02:29:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cheese!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleCheeseExample -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation_test_interview.GoogleExampleIT@1ed4004b]" name="tearDown" is-config="true" duration-ms="285" started-at="2016-12-18T02:29:10Z" finished-at="2016-12-18T02:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation_test_interview.GoogleExampleIT -->
+    </test> <!-- Interview Test1 -->
+    <test name="Interview Test2" duration-ms="4462" started-at="2016-12-18T07:29:10Z" finished-at="2016-12-18T07:29:15Z">
+      <class name="automation_test_interview.GoogleExampleIT">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:automation_test_interview.GoogleExampleIT@3c0f93f1]" name="setUp" is-config="true" duration-ms="2990" started-at="2016-12-18T02:29:10Z" finished-at="2016-12-18T02:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleCheeseExample(java.lang.String)[pri:0, instance:automation_test_interview.GoogleExampleIT@3c0f93f1]" name="googleCheeseExample" duration-ms="1199" started-at="2016-12-18T02:29:13Z" finished-at="2016-12-18T02:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Milk!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleCheeseExample -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation_test_interview.GoogleExampleIT@3c0f93f1]" name="tearDown" is-config="true" duration-ms="273" started-at="2016-12-18T02:29:14Z" finished-at="2016-12-18T02:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation_test_interview.GoogleExampleIT -->
+    </test> <!-- Interview Test2 -->
+  </suite> <!-- automation_test_interview -->
+</testng-results>

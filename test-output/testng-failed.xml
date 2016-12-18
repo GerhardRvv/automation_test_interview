@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [automation_test_interview]">
+  <parameter name="ffProfile" value="Selenium"/>
+  <parameter name="url" value="http://www.google.com"/>
+  <test name="Interview Test1(failed)">
+    <parameter name="searchFor" value="Cheese!"/>
+    <classes>
+      <class name="automation_test_interview.GoogleExampleIT">
+        <methods>
+          <include name="googleCheeseExample" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automation_test_interview.GoogleExampleIT -->
+    </classes>
+  </test> <!-- Interview Test1(failed) -->
+  <test name="Interview Test2(failed)">
+    <parameter name="searchFor" value="Milk!"/>
+    <classes>
+      <class name="automation_test_interview.GoogleExampleIT">
+        <methods>
+          <include name="googleCheeseExample" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automation_test_interview.GoogleExampleIT -->
+    </classes>
+  </test> <!-- Interview Test2(failed) -->
+</suite> <!-- Failed suite [automation_test_interview] -->
