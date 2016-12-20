@@ -1,0 +1,8 @@
+2016-12-18 02:29:09,192 INFO  [GoogleExampleIT] Original url: http://www.google.com 
+2016-12-18 02:29:09,202 INFO  [GoogleExampleIT] Page before search: Google 
+2016-12-18 02:29:09,295 INFO  [GoogleExampleIT] Search for: Cheese! 
+2016-12-18 02:29:10,499 INFO  [GoogleExampleIT] Page title is: Cheese! - Google Search 
+2016-12-18 02:29:13,793 INFO  [GoogleExampleIT] Original url: http://www.google.com 
+2016-12-18 02:29:13,812 INFO  [GoogleExampleIT] Page before search: Google 
+2016-12-18 02:29:13,906 INFO  [GoogleExampleIT] Search for: Milk! 
+2016-12-18 02:29:14,984 INFO  [GoogleExampleIT] Page title is: Milk! - Google Search 
